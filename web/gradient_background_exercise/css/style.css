@@ -1,0 +1,39 @@
+body{
+  margin:0px;
+}
+main{
+  height: 90vh;
+  background: linear-gradient(to bottom, lightblue, midnightblue, aquamarine);
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to top, yellow, green, aquamarine) 1;
+  background-position: top;
+  background-size: 100% 400%;
+  transition:4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main:hover{
+  background-position: bottom;
+  justify-content: flex-start;
+}
+h1{
+  color:white;
+  font-family: sans-serif;
+  font-size: 4em;
+}
+h2{
+  color: white;
+}
+header{
+  height:250px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  /*background image can strat here*/
+  background: url("../assets/tab_icon.png");
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
