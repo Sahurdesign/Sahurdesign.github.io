@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+header{
+background-color: pink;
+padding:30px;
+font-family: "Mali", "comic sans", Cursive;
+border-bottom:3px solid white;
+}
+table{
+  font-family: "Mali", cursive;
+  margin: auto;
+}
+body{
+  margin:0;
+  background-color: lightblue;
+}
+td{
+  padding: 5px 10px;
+  font-size: 14pt;
+  border-bottom: 2px solid #D3EEEE;
+}
+th{
+  padding: 5px 10px;
+  background-color: #D3EEEE;
+  font-size: 14pt;
+  color: maroon;
+}
+tr{
+}
+tr:hover{
+   background: pink;
+   color: blue;
+}
+a{
+  font-family: "Cormorant Garamond";
+  color: black;
+  text-decoration: overline;
+}
+nav li{
+  list-style-type: none;
+}
+nav a:hover{
+  color: midnightblue;
+}
