@@ -67,6 +67,7 @@ header{
   background-position: left top;
   background-size: 200% 200%;
   display: flex;
+  justify-content: space-between;
 }
 .logo{
   width: 120px;
@@ -95,4 +96,7 @@ footer ion-icon{
 }
 #gith:hover{
   color: cyan;
+}
+.empty{
+  width:120px;
 }
