@@ -1,0 +1,31 @@
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.part1{
+    padding: 5px;
+}
+.part2{
+    padding: 6px;
+}
+nav a{
+    text-decoration: overline;
+    color:black;
+}
+li{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2px;
+}
+.row{
+    column-count: 3;
+}
+
+.img1 {
+    width:8%;
+}
