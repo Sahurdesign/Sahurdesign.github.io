@@ -1,6 +1,4 @@
-body{
-    background-color: lightgray;
-}
+
 header{
     display:flex;
     justify-content: center;
@@ -30,6 +28,7 @@ nav ul{
 }
 .row{
     column-count: 3;
+    flex:1;
 }
 
 .img1 {
@@ -74,4 +73,16 @@ footer{
     height: 55px;
     text-align: center;
     justify-content: center;
+}
+.newspaper:hover{
+    color: white;
+    transition-duration: 1s;
+}
+.maincontent{
+    background-image: url("./assets/dragondoor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color:gray;
+
 }
