@@ -1,3 +1,6 @@
+body{
+    background-color: lightgray;
+}
 header{
     display:flex;
     justify-content: center;
@@ -17,6 +20,9 @@ nav a{
 li{
     list-style-type: none;
 }
+nav{
+    padding-bottom: 15px;
+}
 nav ul{
     display: flex;
     justify-content: space-between;
@@ -28,4 +34,43 @@ nav ul{
 
 .img1 {
     width:8%;
+}
+#img1{
+    width: 105%;
+}
+#img2{
+    width: 105%;
+}
+#img3{
+    width: 105%;
+}
+.col{
+    text-align: center;
+}
+.text{
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+footer{
+    display: flex;
+}
+.sword{
+    padding-left: 30%;
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.sword img{
+    width: 40%;
+}
+.newspaper{
+    flex: 1;
+    display: flex;
+    background: orangered;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 55px;
+    width: 10px;
 }
