@@ -60,7 +60,7 @@ footer{
     padding-left: 30%;
     display: flex;
     justify-content: center;
-    flex:1;
+    flex:2;
 }
 .sword img{
     width: 40%;
@@ -72,5 +72,6 @@ footer{
     margin-top: 10px;
     border-radius: 10px;
     height: 55px;
-    width: 10px;
+    text-align: center;
+    justify-content: center;
 }
