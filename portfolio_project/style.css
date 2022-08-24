@@ -1,14 +1,21 @@
+body{
+    margin:0;
+}
 header{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: lightblue;
+    padding: 5px;
 }
 svg{
     width:20%;
     height: 20%;
 }
-
+.myportfolio{
+    background: lightblue;
+}
 .myportfolio img{
     width:100%;
 }
