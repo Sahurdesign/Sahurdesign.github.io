@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap');
 body{
     margin:0;
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     display: flex;
@@ -8,6 +10,8 @@ header{
     flex-direction: column;
     background: lightblue;
     padding: 5px;
+    font-family: Dancing script;
+    font-size: small;
 }
 svg{
     width:20%;
@@ -15,25 +19,94 @@ svg{
 }
 .myportfolio{
     background: lightblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
 }
 .myportfolio img{
     width:100%;
+}
+.grid-sidebyside{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+}
+.illustrator{
+    text-align: center;
+    border-top: 5px double white;
+    padding: 15px;
+    padding-top:25px;
+}
+.card-body{
+    text-align: center;
 }
 nav ul{
     display: flex;
     justify-content: space-between;
     margin: 10px;
     padding-right: 18px;
-    font-size: medium;
+}
+nav h3{
+    font-size: 17px;
+    text-align: center;
 }
 nav li{
     list-style-type: none;
+    padding: 8px 20px 5px 20px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: midnightblue;
+    background: linear-gradient(to right, teal 50%, midnightblue 50%);
+    background-size: 200%;
+    background-position: right bottom;
+}
+nav li:hover{
+    background-color: teal;
+    transition: 0.5s ease-in-out;
+    background-position: left bottom;
 }
 nav a{
-    color:black;
+    color:aliceblue;
     text-decoration: none;
+    transition: 0.5s;
+}
+nav a:hover{
+    color:lightgoldenrodyellow;
 }
 p{
     text-align: center;
-    font-size: small;
+    padding-top: 20px;
+    font-size: 17px;
 }
+.photoshop{
+    text-align: center;
+    padding:15px;
+    padding-top:25px;
+    border-top: 5px double white;
+}
+.indesign{
+    text-align: center;
+    padding: 15px;
+    padding-top: 25px;
+    border-top: 5px double white;
+}
+.column-text{
+    text-align: center;
+}
+.after-effects{
+    text-align: center;
+    background-color: lightblue;
+    border-top: 5px double white;
+    padding: 15px;
+    padding-top:25px;
+}
+footer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+/* .row.g-0.bg-light.position-relative{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+} */
+    
