@@ -14,7 +14,7 @@
                 <h1>Foxtail Farms</h1>
             </div>
             <div class="header_right">
-                <img src="./Assets_/SVG/0.5x/singlefox@0.5x-100.jpg" alt="SingleFox">
+                <img src="./Assets_/0.5x/Asset 1@0.5x.png" alt="SingleFox">
             </div>
         </header>
         <nav>
@@ -39,9 +39,13 @@
             <!--Main Content Wrapper-->
             <div class="about_button_wrapper">
                 <h2>Click here to find more about:</h2>
-                <button class="about_button">About</button>
+                <button class="about_button" onclick="toggleContent()">About</button>
                 <p class="about_text" id="js_demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda asperiores magnam autem earum nemo a obcaecati officiis quo odit, excepturi eos ipsum. Distinctio voluptatibus molestiae aliquam corrupti, architecto sint dolores?
                 </p>
+            </div>
+            <div class="time-wrapper">
+                <h4>Current Date is:</h4>
+                <p id="date_element"></p>
             </div>
 
         </main>
@@ -86,10 +90,18 @@
         </footer>
     </div>
     <script>
-        var x = document.getElementById("js_demo").innerHTML;
+        function toggleContent(){
+            var x = document.getElementById("js_demo");
+            x.classList.toggle("reveal");
+        }
+        var datePg = document.getElementById("date_element");
+        console.log(datePg);
 
-        console.log("Hello World.");
-        console.log(x);
+        function revealDate(){
+            datePg.innerHTML = Date();
+        }
+        revealDate();
     </script>
+    <script src="./countdown.js"></script>
 </body>
 </html>
