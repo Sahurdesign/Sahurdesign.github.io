@@ -28,4 +28,4 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("date_element").innerHTML = "EXPIRED";
   }
-}, 5000);
+}, 1000);

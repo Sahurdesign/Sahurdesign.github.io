@@ -3,6 +3,7 @@
 body{
     margin:0;
     font-family: "Montserrat";
+    background-color: rgba(225, 161, 119, 0.6);
 }
 /*HEADER CSS*/
 header{
@@ -10,31 +11,49 @@ header{
     justify-content: space-between;
     align-items: center;
     padding:20px;
-    background: linear-gradient(45deg, #e1a177 55%,transparent 55%);
-    background-size: 66% 75%;
+    background: linear-gradient(65deg, #e1a177 40%, white 60% );
+}
+.header_right{
+    width: 20%;
 }
 .header_right img{
-    width: 80%;
+    width: 100%;
+    transition:2s;
+    box-shadow: 17px 34px #e1a177;
+    align-items: center;
+}
+.header_right img:hover{
+    transform: rotate(360deg);
 }
 .header_left{                                                                                                                                                                                                                                                                                                                 
     font-family: "lobster";
-    color: white;;
+    color:white;
+    text-shadow: 2px 2px 2px black;
 }
 /*DIV BODY MAIN PAGE*/
 #main_page{
     box-sizing: border-box;
     width:90%;
-    border:5px solid #e1a177;
+    border:5px solid black;
     border-radius: 7px;
     margin:5% auto;
 }
 /*NAV*/
 .navbar{
     padding:20px;
-    padding-top:20px;
-    padding-bottom:20px;
     border-top: 3px solid #e1a177;
     border-bottom: 3px solid #e1a177;
+    background-color: white;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: #e1a177;
+    color: white;
+    padding:25px;
+    border-radius: 6px;
+    transition:0.5s;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
 }
 nav ul{
     display: flex;
@@ -44,6 +63,7 @@ nav ul{
 }
 nav li{
     list-style-type: none;
+
 }
 nav a{
     text-decoration: none;
@@ -54,67 +74,133 @@ nav a{
     justify-content: space-between;
     align-items: center;
     padding: 8px 20px;
+    background: linear-gradient(to bottom, #e1a177 35%, white);
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 footer{
     display: flex;
     padding:50px;
-
+    background: linear-gradient(to top, #e1a177 45%, white);
+    align-items: center;
 }
 .footer-left img{
     width:100%;
+    background-color: white;
+    padding:50px;
+    border-radius: 10px;
 }
 .footer-left{
-    flex:2;
-    padding-left:10px;
+    flex:1.5;
+    padding:80px;
+    padding-left: 0;
 }
 .center{
     flex:1;
-    background-color: #e1a177;
     padding: 20px 20px 30px 20px;
     color:white;
     text-align: center;
+}
+.center  h3{
+    text-shadow: 2px 2px 2px black;
 }
 .footer-right{
     flex:1;
-    background-color: #e1a177;
     padding: 20px 20px 30px 20px;
     color:white;
     text-align: center;
 }
+.footer-right h3{
+    text-shadow: 2px 2px 2px black;
+}
+.footer-right li{
+    list-style-type: none;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #e65b95;
+    color: white;
+  }
 
 /* JS DEMO1 */
 .about_text{
     display:none;
 }
-
+.text{
+    background-color: white;
+    padding:10px;
+    padding-top:40px;
+    text-align: center;
+}
+.text p{
+    word-spacing: 5px;
+}
+.card{
+    width: 80%;
+    margin:auto;
+    border: 5px solid rgba(225, 161, 119, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 0px 2px #e1a177;
+}
 .reveal{
     display: block;
 }
 #date_element{
     text-align: center;
 }
+.time-wrapper h5{
+    font-size: 15pt;
+    font-family: "Lobster";
+}
 .time-wrapper{
-    background-color: #e1a177;
     height:300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color:white;
-    background-image: url(./Assets_/elaine-casap-qgHGDbbSNm8-unsplash.jpg);
-    background-position: center center;
+    font-family: "Montserrat";
+    text-shadow: 2px 3px 2px black;
+    background-image: url(./Assets_/Coffee_symbol.png);
+    background-position: center top;
     background-size: cover;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.time-wrapper>*{
+    margin:0px;
 }
 .time-wrapper h4{
     font-size:32pt;
-    text-shadow: 2px 3px 0px black;
+    padding-bottom:75px;
+    margin: 30px;
     font-family: lobster;
 }
 .center a{
     color:white;
     list-style-type: none;
+    text-decoration-style: dashed;
 }
 .footer-right a{
     color:white;
-    list-style-type: none;
+    text-decoration-style: dashed;
 }
