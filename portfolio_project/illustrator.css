@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Satisfy&display=swap');
+body{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.myportfolio{
+    background: lightblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.myportfolio img{
+    width:100%;
+}
+.grid-sidebyside{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+}
+.illustrator{
+    text-align: center;
+    padding: 15px;
+    padding-top:25px;
+}
+.illustrator h3{
+    border-bottom: 5px double white;  
+}
+.card-body{
+    text-align: center;
+}
+footer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+/* .row.g-0.bg-light.position-relative{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+} */
+    
