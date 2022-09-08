@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    position:sticky;
+    top:0px;
+}
+nav ul{
+    background-color: forestgreen;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3px;
+    padding: 20px;
+}
+.firsttext {
+    text-align: center;
+    padding: 20px;
+}
+nav li{
+    list-style-type: none;
+    color:white;
+    padding: 6px;
+}
+.first{
+    width: 99%;
+    margin: auto;
+
+}
+#second-section{
+    background-color: palegreen;
+    padding: 50px 0px 80px 0px;
+}
+.second{
+    width: 45%;
+    padding: 10px;
+    float: left;
+}
+.plantation{
+    width: 35%;
+    padding: 10px;
+    float: right;
+}
+/*images width*/
+#first{
+    width: 100%;
+}
+#second{
+    width: 100%;
+    border-radius: 50% 5%;
+}
+#trees{
+    width: 100%;
+    border-radius: 5% 50%;
+    height: 250px;
+}
+.end{
+    padding: 20px;
+}
+.final-image{
+    width:90%;
+    padding: 2px;
+    margin: auto;
+}
+#finals{
+    width: 100%;
+    border-radius: 20% 50%;
+}
+.final-text p{
+    padding:50px;
+    margin:10px 0px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 20px 0px;
+}
+.social-media{
+    background-color: palegreen;
+    padding: 10px;
+}
+.social-media li{
+    list-style-type: none;
+}
+.social-media ul{
+    display: flex;
+    padding: 10px;
+    margin: 2px;
+}
