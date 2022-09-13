@@ -19,12 +19,10 @@
         <li><a href="../indesign.html">Indesign</a></li>
         <li><a href="../after-effects.html">After Effects</a></li>
       </ul>
+
       <section>
         <h1>Contact</h1>
         <div class="myportfolio">
-            <div class="Booking">
-              <h3>Check your date</h3>
-            </div>
             <div class="row">
               <div class="column">
                 <form action="/action_page.php">
@@ -32,15 +30,16 @@
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
                   <label for="lname">Last Name</label>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
+                  <label for="services">Services</label>
+                  <select id="services" name="services">
+                    <option value="photography">Photography session</option>
+                    <option value="animation">Animation or Prototype</option>
+                    <option value="web">Web Design</option>
+                    <option value="Other">Other Services</option>
                   </select>
                   <label for="Date">Book your date!</label>
                   <input type="date" name="Date" id="calendar" min="2020-01-01" max="2023-01-01" value="2020-01-01">
-                  <label for="subject">Subject</label>
+                  <label for="subject">Describe Details</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                   <input type="submit" value="Submit">
                 </form>

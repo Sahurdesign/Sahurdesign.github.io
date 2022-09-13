@@ -4,6 +4,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-color: lightblue;
 }
+section{
+  background-color: lightblue;
+  padding: 15px;
+}
 nav{
     background-color: aliceblue;
 }
@@ -83,6 +87,15 @@ input[type=text], select, textarea {
   input[type=date]{
     width: 100%;
   }
+  #services{
+    border: 2px solid white;
+  }
+  form{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: aliceblue;
+  }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
@@ -90,3 +103,4 @@ input[type=text], select, textarea {
       width: 100%;
       margin-top: 0;
     }
+}
