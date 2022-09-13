@@ -56,9 +56,9 @@ svg{
     margin:0px;
     width: 50%; 
     max-width: 500px;
-    position: relative;
-    bottom:-90px;
-    right: -290px;
+    position: absolute;
+    top:320px;
+    right: 0px;
     transform: rotate(-15deg);
 }
 .flowers-downright img{
@@ -152,6 +152,7 @@ footer p{
 }
 .icons svg{
     width: 100%;
+    color:goldenrod;
 }
 .icons{
      display: flex;
@@ -173,5 +174,11 @@ footer p{
     .circle{
         width:400px;
         height: 400px;
+    }
+    .flowers-downright{
+        top: 420px;
+    }
+    .flowers{
+        top:-110px;
     }
 }
