@@ -4,6 +4,11 @@ body{
     margin:0;
     font-family: 'Times New Roman', Times, serif;
 }
+.image_background{
+    height: auto;
+    width: auto;
+    background-position: center center;
+}
 /* header{
     display: flex;
     align-items: center;
@@ -57,8 +62,8 @@ svg{
     width: 50%; 
     max-width: 500px;
     position: relative;
-    bottom:-90px;
-    right: -290px;
+    bottom:-100px;
+    right: -260px;
     transform: rotate(-15deg);
 }
 .flowers-downright img{
