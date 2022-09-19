@@ -3,6 +3,10 @@
 body{
     margin:0;
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(./img/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /* header{
     display: flex;
@@ -95,6 +99,8 @@ nav ul{
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 50%;
+    transform: translate(80%, 7%);
     background-color: lightblue;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -180,5 +186,19 @@ footer p{
     }
     .flowers{
         top:-110px;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(260%, 5%);
+    }
+}
+@media (min-width:1000px) {
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(480%, 5%);
     }
 }
