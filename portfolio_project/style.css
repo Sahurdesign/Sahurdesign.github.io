@@ -4,8 +4,8 @@ body{
     margin:0;
     font-family: 'Times New Roman', Times, serif;
     background-image: url(./img/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
-    background-position: center center;
-    background-size: cover;
+    background-position: center left;
+    background-size: 180%;
     background-repeat: no-repeat;
 }
 /* header{
