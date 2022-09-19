@@ -19,12 +19,10 @@
         <li><a href="../indesign.html">Indesign</a></li>
         <li><a href="../after-effects.html">After Effects</a></li>
       </ul>
+
       <section>
         <h1>Contact</h1>
         <div class="myportfolio">
-            <div class="Booking">
-              <h3>Check your date</h3>
-            </div>
             <div class="row">
               <div class="column">
                 <form action="/action_page.php">
@@ -32,15 +30,67 @@
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
                   <label for="lname">Last Name</label>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
+                  <label for="services">Services</label>
+                  <select id="services" name="services">
+                    <option value="photography">Photography session</option>
+                    <option value="animation">Animation or Prototype</option>
+                    <option value="web">Web Design</option>
+                    <option value="Other">Other Services</option>
                   </select>
                   <label for="Date">Book your date!</label>
                   <input type="date" name="Date" id="calendar" min="2020-01-01" max="2023-01-01" value="2020-01-01">
-                  <label for="subject">Subject</label>
+                  <div class="month">
+                    <ul id="calendar">
+                      <li class="prev">&#10094;</li>
+                      <li>August<br><span style="font-size:18px">2021</span></li>
+                      <li class="next">&#10095;</li>
+                    </ul>
+                  </div>
+                  
+                  <ul class="weekdays">
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                    <li>Su</li>
+                  </ul>
+                  
+                  <ul class="days">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li><span class="active">10</span></li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+                    
+                  </ul>
+                  <label for="subject">Describe Details</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
                   <input type="submit" value="Submit">
                 </form>

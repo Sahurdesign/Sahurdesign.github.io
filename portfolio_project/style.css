@@ -34,7 +34,7 @@ svg{
     height: 40%;
 }
 .circle h2{
-    font-size: small;
+    font-size: 14pt;
     text-align: center;
 }
 .header-flowers{
@@ -47,9 +47,21 @@ svg{
     max-width: 500px;
     transform: rotate(170deg);
     position: relative;
-    top: -40px;
+    top: -70px;
 }
 .flowers img{
+    width: 150%;
+}
+.flowers-downright{
+    margin:0px;
+    width: 50%; 
+    max-width: 500px;
+    position: absolute;
+    top:320px;
+    right: 0px;
+    transform: rotate(-15deg);
+}
+.flowers-downright img{
     width: 150%;
 }
 article{
@@ -64,7 +76,7 @@ p{
 nav{
     padding: 10px;
     text-align: center;
-    margin: 20px 0px 40px 0px;
+    margin: 20px 0px 60px 0px;
 }
 nav ul{
     margin: 10px;
@@ -130,9 +142,29 @@ footer{
     text-align: center;
 }
 footer p{
-    font-family: "Dancing Script";
+    font-family: "Times New Roman";
     padding: 10px;
+    word-spacing: 0px;
 }
+#terms{
+    padding-top: 25px;
+    border-bottom: 3px double white;
+}
+.icons svg{
+    width: 100%;
+    color:goldenrod;
+}
+.icons{
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     align-items: center;
+     width: 10%;
+     padding: 2px;
+}
+/* .svg a{
+    color:goldenrod;
+} */
 /* .row.g-0.bg-light.position-relative{
     display: grid;
     grid-template-columns: auto auto;
@@ -142,5 +174,11 @@ footer p{
     .circle{
         width:400px;
         height: 400px;
+    }
+    .flowers-downright{
+        top: 420px;
+    }
+    .flowers{
+        top:-110px;
     }
 }
