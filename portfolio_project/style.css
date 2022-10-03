@@ -7,6 +7,7 @@ body{
     background-position: center left;
     background-size: 180%;
     background-repeat: no-repeat;
+    animation: moveIt 20s linear infinite;
 }
 /* header{
     display: flex;
@@ -182,7 +183,7 @@ footer p{
         height: 400px;
     }
     .flowers-downright{
-        top: 420px;
+        top: 600px;
     }
     .flowers{
         top:-110px;
@@ -193,6 +194,14 @@ footer p{
         top: 50%;
         transform: translate(260%, 5%);
     }
+    body{
+        background-size: 100%;
+        width:auto;
+        height: auto;
+    }
+    footer{
+        margin-top: 12%;
+    }
 }
 @media (min-width:1000px) {
     .dropdown-content{
@@ -202,3 +211,7 @@ footer p{
         transform: translate(480%, 5%);
     }
 }
+@keyframes moveIt {
+    from {background-position: bottom left;}
+    to {background-position: top right;}
+  }
