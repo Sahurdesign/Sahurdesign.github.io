@@ -13,7 +13,7 @@ body{
     border-radius: 5px;
 }
 nav a:hover{
-    background-color: #F5C369;
+    background-color: #EDC372;
     color: white;
     padding:25px;
     border-radius: 6px;
@@ -36,17 +36,28 @@ nav a{
     color:rgba(104, 80, 24, 0.8);
 }
 /*HEADER CSS*/
-header{
-    border-bottom: rgba(104, 80, 24, 0.8);
+
+header img{
+    padding: 15px;
+    margin-bottom: 20px;
+    
+}
+.header{
+  width: 100%;
+  height: auto; 
+  background: linear-gradient(to bottom, rgba(237, 195, 114,0.8) 35%, white);
+  position: fixed;
+  border-radius: 10px;
 }
 .header_left{                                                                                                                                                                                                                                                                                                                 
     font-family: "lobster";
-    color:#eda90a;
+    color:#ffffff;
+    background: linear-gradient(to bottom, #EDC372 45%, white);
     text-shadow: 2px 2px 2px black;
     text-align: center;
     font-size: 20pt;
     padding: 7px;
-    text-decoration: 2px underline #F5C369;
+    text-decoration: 2px underline #ffffff;
     text-underline-offset: 15px;
     margin: 2%;
 }
@@ -64,43 +75,66 @@ img {
     padding:20px;
     padding-top:40px;
     text-align: center;
-
 }
 .text p{
     word-spacing: 5px;
 }
 #left{
     float: left;
+    padding: 5px;
 }
 #right{
     width: 40%;
     float: right;
 }
+.main{
+    margin-top: 90%;
+    width: 100%;
+    height: auto;
+    border-radius: 25% 40%;
+}
+.description{
+    text-align: center;
+    padding: 10px;
+}
 #separate{
-    padding: 5px;
-    padding-bottom: 35px;
+    border: 2px solid #F7BD77;
+    padding: 50px;
+    text-align: right;
+}
+.colombian_coffee .coffee{
+    width: 100%;
+    height: auto;
+}
+#coffee_text{
+    text-align: left;
+    border: 2px solid #F7BD77;
+    padding: 50px;
 }
 .colombian_coffee{
-    text-align: center ;
     width: 30%;
     margin:auto;
-    border: 5px solid #F5C369;
+    border: 5px solid #EDC372;
     font-size: 11pt;
     padding: 0px 10px;
     margin-bottom: 20px;
-    box-shadow: 0px 3px 0px 1px #F5C369;
+    box-shadow: 0px 3px 0px 1px #EDC372;
 }
 
 .about_button_wrapper{
     align-items: center;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
     padding: 8px 20px;
-    background: linear-gradient(to bottom, #F5C369 35%, white);
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    color: black;
 }
 .about_button{ 
     text-align: center;
+    display: grid;
+    justify-content: center;
     width: 30%;
+    align-items: center;
     border-color:rgba(104, 80, 24, 0.89);
     border-radius: 10px;
     color:rgba(104, 80, 24, 0.8) ;
@@ -110,13 +144,18 @@ img {
     font-family:'Times New Roman', Times, serif;
 }
 .about_button_wrapper h3{
+    font-size: 16pt;
     text-align: center;
+    color: #EDC372;
+    text-shadow: 1px 1px 1px black;
 }
 footer{
     display: flex;
-    padding:50px;
-    background: linear-gradient(to top, #e1a177 45%, white);
+    justify-content: center;
+    padding: 50px;
+    background: linear-gradient(to top, #EDC372 35%, white);
     align-items: center;
+    text-align: center;
 }
 .footer-left img{
     width:100%;
@@ -136,7 +175,7 @@ footer{
     text-align: center;
 }
 .center  h3{
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px black;
 }
 .footer-right{
     flex:1;
@@ -145,7 +184,7 @@ footer{
     text-align: center;
 }
 .footer-right h3{
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px black;
 }
 .footer-right li{
     list-style-type: none;
@@ -153,6 +192,7 @@ footer{
 .social-media{
     display: flex;
     justify-content: center;
+    background-color: #EDC372;
 }
 .fa {
     padding: 20px;
@@ -190,36 +230,39 @@ footer{
     font-family: "Lobster";
 }
 .time-wrapper{
-    height:300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color:rgb(255, 255, 255);
+    color: #E1A177;
     font-family: "Montserrat";
-    background-color: antiquewhite;
-    background-image: url(./Assets_/Coffee_symbol.png) ;
-    background-position: center center;
-    background-size: 40%;
-    text-shadow: 2px 3px 15px black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    text-shadow: 1px 1px 1px black;
 }
 .time-wrapper>*{
     margin:0px;
 }
 .time-wrapper h4{
     font-size:32pt;
-    padding-bottom:75px;
+    padding-bottom:5px;
     margin: 30px;
-    font-family: lobster;
+    font-family: "lobster";
 }
 .center a{
     color:white;
     list-style-type: none;
-    text-decoration-style: dashed;
+    text-decoration-style: underline;
+    text-shadow: 1px 1px 2px black;
 }
 .footer-right a{
     color:white;
-    text-decoration-style: dashed;
+    text-decoration-style: underline;
+    text-shadow: 1px 1px 1px black;
+}
+.finally{
+    font-family: "lobster";
+    color: black;
+    font-size: 20pt;
+    background-color: #EDC372;
+    padding: 10px;
+    text-align: center;
 }
