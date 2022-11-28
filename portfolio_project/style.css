@@ -5,9 +5,12 @@ body{
     font-family: 'Times New Roman', Times, serif;
     background-image: url(./img/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
     background-position: center left;
-    background-size: 180%;
+    background-size: 179%;
     background-repeat: no-repeat;
-    animation: moveIt 20s linear infinite;
+    animation: moveIt 30s linear infinite;
+}
+.movement{
+    background-position: top right;
 }
 /* header{
     display: flex;
@@ -169,6 +172,9 @@ footer p{
      width: 10%;
      padding: 2px;
 }
+#link{
+    color:goldenrod;
+}
 /* .svg a{
     color:goldenrod;
 } */
@@ -198,10 +204,29 @@ footer p{
         background-size: 100%;
         width:auto;
         height: auto;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
     footer{
         margin-top: 12%;
     }
+    @keyframes moveIt {
+        from {background-position: top right;}
+        to {background-position: bottom left;}
+      }
+      .icons svg{
+        width: 100%;
+        color:goldenrod;
+    }
+    .icons{
+         display: flex;
+         justify-content: space-between;
+         margin: auto;
+         align-items: center;
+         width: 3%;
+         padding: 2px;
+    }
+    
 }
 @media (min-width:1000px) {
     .dropdown-content{
