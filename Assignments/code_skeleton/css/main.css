@@ -1,0 +1,47 @@
+body{
+  margin:0px;
+  background-color: lightgrey;
+}
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+nav{
+  width: 50%;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding:7px;
+  width: 100%;
+  display: block;
+}
+nav a:hover{
+  transition: 0.5s;
+  color:yellow;
+}
+nav a::before{
+  content:"|";
+  padding-right: 5px;
+}
+.menubar{
+  width:30%;
+  padding-left: 0px;
+  padding-right: 50px;
+}
+.header-content{
+  width: 50%;
+  padding:35px;
+  font-family: cursive;
+  font-style: italic;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav li{
+  list-style-type: none;
+}
