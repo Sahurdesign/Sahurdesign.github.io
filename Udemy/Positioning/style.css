@@ -1,22 +1,17 @@
 .red{
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     position: absolute;
-    left: 210px;
-    top: 210px;
+    left: 250px;
+    top: 150px;
 }
 .blue{
     background-color: blue;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 110px;
-    top: 110px;
-}
-.yellow{
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-    position: absolute;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: 200px;
 }
